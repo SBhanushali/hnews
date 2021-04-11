@@ -1,9 +1,9 @@
 import React from "react";
-import { NewspaperIcon, SunIcon } from "@heroicons/react/solid";
+import { NewspaperIcon, SunIcon } from "@heroicons/react/outline";
 
 const Navbar = () => {
   return (
-    <nav className="py-5 flex px-2 md:px-6 justify-between">
+    <nav className="py-5 flex h-24 px-2 md:px-6 lg:px-12 justify-between sticky top-0 bg-gray-100">
       <div className="flex">
         <NewspaperIcon className="h-12 w-12 text-indigo-800" />
         <div className="text-3xl self-center font-semibold">HNews</div>
