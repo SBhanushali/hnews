@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   FireIcon,
   SortAscendingIcon,
@@ -8,15 +9,27 @@ import {
 const SideMenu = () => {
   return (
     <div className="bg-gray-100 flex flex-row lg:flex-col items-center lg:items-start justify-around lg:justify-start space-y-0 lg:space-y-6 sticky top-24 h-20 lg:h-32">
-      <a className="flex text-gray-800 font-medium">
+      <NavLink
+        to="/top"
+        className="flex text-gray-800 font-medium"
+        activeClassName="font-black"
+      >
         <FireIcon className="h-6 w-6 mr-2" /> Top
-      </a>
-      <a className="flex text-gray-800 font-medium">
+      </NavLink>
+      <NavLink
+        to="latest"
+        className="flex text-gray-800 font-medium"
+        activeClassName="font-black"
+      >
         <SortAscendingIcon className="h-7 w-7 mr-2" /> Latest
-      </a>
-      <a className="flex text-gray-800 font-medium">
+      </NavLink>
+      <NavLink
+        to="jobs"
+        className="flex text-gray-800 font-medium"
+        activeClassName="font-black"
+      >
         <BriefcaseIcon className="h-6 w-6 mr-2" /> Jobs
-      </a>
+      </NavLink>
     </div>
   );
 };
