@@ -1,10 +1,26 @@
 import React from "react";
-import { CloudDownloadIcon } from "@heroicons/react/outline";
 
 const Loader = () => {
   return (
-    <div className="flex justify-center ">
-      <CloudDownloadIcon className="w-8 h-8 m-4 animate-bounce" />
+    <div className="border border-gray-400 shadow rounded-md p-4 max-w-full w-full mx-auto">
+      <div className="animate-pulse flex space-x-4">
+        <div className="flex-1 space-y-4 py-1">
+          <div
+            className="h-4 bg-gray-400
+           rounded w-3/4"
+          ></div>
+          <div className="space-y-2">
+            <div
+              className="h-4 bg-gray-400
+             rounded"
+            ></div>
+            <div
+              className="h-4 bg-gray-400
+             rounded w-5/6"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
