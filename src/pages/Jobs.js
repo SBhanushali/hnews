@@ -36,7 +36,7 @@ const Jobs = () => {
 
   return (
     <div
-      className="space-y-1 mx-5 w-full lg:max-h-full overflow-y-auto h-144 lg:h-168"
+      className="space-y-3 mx-5 lg:w-full lg:max-h-full overflow-y-auto h-156 lg:h-168"
       onScroll={handleScroll}
     >
       {stories &&
