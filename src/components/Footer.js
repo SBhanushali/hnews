@@ -8,6 +8,16 @@ const Footer = () => {
         react app from scratch and use external APIs.
       </p>
       <p>Built using HackerNews API, tailwindcss & !CRA</p>
+      <p>
+        <a
+          href="https://github.com/SBhanushali/hnews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Github
+        </a>
+      </p>
     </footer>
   );
 };
