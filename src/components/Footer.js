@@ -2,16 +2,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="sticky top-28 h-20 hidden lg:block text-sm text-gray-500 w-60">
+    <footer className="sticky space-y-5 top-28 h-20 hidden lg:block text-sm text-gray-600 w-80 dark:text-gray-50">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Sagittis purus sit
-        amet volutpat consequat mauris nunc.
+        This main motivation behind this project was to learn tailwindcss, setup
+        react app from scratch and use external APIs.
       </p>
-      <p>Built using HackerNews API</p>
-      <p>
-        Design inspiration <a src="">Nicolas Meuzard</a>{" "}
-      </p>
+      <p>Built using HackerNews API, tailwindcss & !CRA</p>
     </footer>
   );
 };
