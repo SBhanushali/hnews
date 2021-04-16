@@ -5,7 +5,7 @@ import getTimeFromNow from "../helpers/getTimeFromNow";
 
 const Story = ({ story }) => {
   return (
-    <div className=" w-full p-6 bg-white rounded-lg shadow-md">
+    <div className="w-full p-6 rounded border border-gray-300">
       <a
         href={story.url}
         target="_blank"

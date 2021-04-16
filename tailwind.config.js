@@ -8,6 +8,9 @@ module.exports = {
         156: "39rem",
         168: "42rem",
       },
+      colors: {
+        orange: "#fe6600",
+      },
     },
   },
   variants: {

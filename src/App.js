@@ -7,7 +7,7 @@ import SideMenu from "./components/SideMenu";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen">
       <Navbar />
       <div className="lg:mx-5 lg:ml-8 flex flex-col justify-around lg:flex-row">
         <SideMenu />

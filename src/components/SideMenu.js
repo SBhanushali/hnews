@@ -8,7 +8,7 @@ import {
 
 const SideMenu = () => {
   return (
-    <div className="bg-gray-100 w-full lg:w-60 lg:p-10 flex flex-row lg:flex-col items-center lg:items-start justify-around lg:justify-start space-y-0 lg:space-y-6 sticky top-24 h-20 lg:h-52">
+    <div className="w-full lg:w-60 lg:p-10 flex flex-row lg:flex-col items-center lg:items-start justify-around lg:justify-start space-y-0 lg:space-y-6 sticky top-24 h-20 lg:h-52">
       <NavLink
         to="/top"
         className="flex text-gray-600 font-medium"
