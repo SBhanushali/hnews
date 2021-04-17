@@ -45,9 +45,9 @@ const Latest = () => {
         )}
 
       {loading && <Loader />}
-      {stories.length >= storySize && stories.length != 0 ? (
-        <p className="text-center">We have reached the end</p>
-      ) : null}
+      {stories.length >= storySize && stories.length != 0 && (
+        <p className="text-center dark:text-white">We have reached the end</p>
+      )}
     </div>
   );
 };
