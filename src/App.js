@@ -1,10 +1,11 @@
 import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { Top, Latest, Jobs } from "./pages";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import SideMenu from "./components/SideMenu";
 import { ThemeProvider } from "./components/themeContext";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
             </Route>
             <Route path="/jobs">
               <Jobs />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
           <Footer />
